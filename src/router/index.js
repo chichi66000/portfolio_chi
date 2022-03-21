@@ -9,6 +9,7 @@ import Calculateur from '../components/Calculateur'
 import Crowdfund from '../components/Crowdfund'
 import Movies from '../components/Movies'
 import ChatReact from '../components/ChatReact'
+import Taxi from '../components/Taxi'
 
 const routes = [
   {
@@ -61,6 +62,11 @@ const routes = [
     path: '/movies',
     name: 'Movies',
     component: Movies
+  },
+  {
+    path: '/taxi',
+    name: 'Taxi',
+    component: Taxi
   },
   {
     path: "/:catchAll(.*)",

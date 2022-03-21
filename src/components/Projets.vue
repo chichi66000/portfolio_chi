@@ -6,8 +6,22 @@
         <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
 
             <div class="carousel-inner w-75 mx-auto carouselDiv ">
+                
+                <!-- Impec -->
+                <router-link to="/taxi"  class="carousel-item active card p-2 " style="height: 98%">
+                    <h5 class="card-title px-2">IMPEC, platform de gestion taxi</h5>
+                    
+                    <div class="w-100 mx-auto text-center" style=" max-height: 20rem;max-width: 30rem">
+                        <img src="../assets/image/impec_liste_course.png" class="card-img-top "  alt="projet Groupomania" style="height: fit-content"> 
+                    </div>
+                    <div class="card-body" >
+                        <p class="card-text ">Ce platform de gestion de taxi est réservé pour les sociétés de transport, les hôpitaux, les hôtels afin créer/ gérer les courses, les chauffeurs, les clients... </p>
+                        <p class="card-text techno">NodeJS, EJS, HTML, CSS, JavaScript, Jquery, Bootstrap</p>
+                    </div>
+                </router-link>
+
                 <!-- Groupomana -->
-                <router-link to="/groupomania"  class="carousel-item active card p-2 " style="height: 98%">
+                <router-link to="/groupomania"  class="carousel-item card p-2 " style="height: 98%">
                     <h5 class="card-title px-2">Groupomania, réseau social d'entreprise</h5>
                     
                     <div class="w-100 mx-auto text-center" style=" max-height: 20rem;max-width: 30rem">
