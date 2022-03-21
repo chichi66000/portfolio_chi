@@ -21,6 +21,9 @@
                             </a>
                             <ul class="dropdown-menu "  aria-labelledby="navbarDropdown">
                                 <li class="px-1 py-1 " >
+                                    <router-link to="/taxi" class="link" >IMPEC, platform de gestion taxi</router-link>
+                                </li>
+                                <li class="px-1 py-1 " >
                                     <router-link to="/groupomania" class="link" > Réseau social entreprise Groupomania</router-link>
                                 </li>
                                 <li class="px-1 py-1 ">
